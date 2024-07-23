@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>My Game Portfolio</h1>
+    </header>
+    <main>
+      <div class="game" data-description="An epic adventure game.">
+        <img src="images/game1.jpg" alt="Game 1" />
+        <h2>Game Title 1</h2>
+      </div>
+      <div class="game" data-description="A thrilling action game.">
+        <img src="images/game2.jpg" alt="Game 2" />
+        <h2>Game Title 2</h2>
+      </div>
+      <div class="game" data-description="A fun and challenging puzzle game.">
+        <img src="images/game3.jpg" alt="Game 3" />
+        <h2>Game Title 3</h2>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 My Game Portfolio</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modal-img" src="" alt="" />
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+  </body>
+</html>
